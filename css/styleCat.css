@@ -20,7 +20,13 @@ body{
 }
 #logo {
     float: left;
-    padding: 10px;
+  padding: 10px;
+  
+}
+
+#logogabo{
+    float: left;
+    height: 60px;
 }
 #menu {
     float: right;
@@ -135,8 +141,6 @@ h2{
 }
 
 #footer{
-    background-color: #000000;
-    padding: 20px 100px 70px 100px;
-    color: white;
+    background: #efb704;
     text-align: center;
-}
+  }

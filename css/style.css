@@ -3,7 +3,6 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
-    opacity: 50%;
 }
 /*----- HEADER----- */
 #header {
@@ -50,6 +49,7 @@ body{
 #imagen img {
     margin: 0 auto;
     display: block;
+    width: 300px;
 }
 #datos{
   padding-left: 50px;
@@ -91,11 +91,15 @@ body{
 #compras img{
     width: 150px;
     padding: 30px;
+    display: block;
+}
+
+.botones{
+    margin: 0% auto;
+    text-align: center
 }
 /*------- ESTILOS FOOTER ----*/
 #footer{
-    background-color: #000000;
-    padding: 20px 100px 70px 100px;
-    color: white;
+    background: #efb704;
     text-align: center;
   }
